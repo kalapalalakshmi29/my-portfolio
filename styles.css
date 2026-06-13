@@ -438,7 +438,8 @@ body {
   font-size: 1rem; color: #fff;
 }
 .contact-item span { font-size: 0.72rem; color: var(--muted); display: block; margin-bottom: 2px; }
-.contact-item p { font-size: 0.85rem; font-weight: 500; }
+.contact-item p a { color: var(--text); text-decoration: none; transition: color 0.3s; }
+.contact-item p a:hover { color: var(--primary-light); }
 .social-row { display: flex; gap: 1rem; }
 .social-btn {
   display: flex; align-items: center; gap: 0.6rem;
